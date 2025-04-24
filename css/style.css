@@ -1,3 +1,54 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*generics*/
 body {
     font-family: "Roboto", sans-serif;
+    background-color: lightblue;
+}
+.container {
+    max-width: 1090px;
+    margin: 0 auto;
+}
+
+/*Header*/
+.intestazione {
+    height: 70px;
+    background-color: white;
+    padding: 10px;
+}
+
+figure,
+h1 {
+    vertical-align: middle;
+    display: inline;
+    font-size: 40px;
+}
+
+/*Buttons*/
+.add-button {
+    background-color: white;
+    height: 50px;
+    margin-top: 30px;
+    padding: 10px 50px;
+    border-radius: 10px 10px 0px 0px;
+}
+button {
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+}
+
+.btn-add-task {
+    background-color: #47adf1;
+    color: white;
+}
+
+.btn-add-section {
+    color: lightgrey;
 }
